@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="72dp"
+    android:layout_height="72dp"
+    	android:background="@drawable/back_wood1_1" >
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:padding="5dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+	    <RelativeLayout 
+	       	android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" >
+	        
+		    <ImageView 
+		        android:id="@+id/desktop_frequency_icon"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_centerVertical="true"
+		        android:src="@drawable/frequency_icon"/>
+		    <TextView 
+		        android:id="@+id/desktop_frequency"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_toRightOf="@id/desktop_frequency_icon"
+		        android:layout_centerVertical="true"
+		        android:textColor="#ffffff"
+		        android:textSize="12sp"
+		        android:text="@string/desktop_number0"/>
+		</RelativeLayout>
+		<RelativeLayout 
+	       	android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" >
+		    <ImageView 
+		        android:id="@+id/desktop_calorie_icon"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/calorie_icon"/>
+		    <TextView 
+		        android:id="@+id/desktop_calorie"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_toRightOf="@id/desktop_calorie_icon"
+		        android:layout_centerVertical="true"
+		        android:textColor="#ffffff"
+		        android:textSize="12sp"
+		        android:text="@string/desktop_number0"/>
+		</RelativeLayout>
+	</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="desktop_number0">0000</string>
+    <string name="app_name">懒人瘦身</string>
+    <string name="name_back">返回</string>
+    <string name="name_caloriename">卡</string>
+    <string name="name_unit_k">克</string>
+    <string name="name_unit_ml">毫升</string>
+    <string name="name_unit_tiao">条</string>
+    <string name="name_unit_li">粒</string>
+    <string name="name_unit_ge">个</string>
+    <string name="name_unit_bei">杯</string>
+    <string name="name_unit_shi">匙</string>
+    <string name="name_unit_chuan">串</string>
+    <string name="name_unit_fen">份</string>
+    <string name="name_unit_kuai">块</string>
+    <string name="name_unit_wan">碗</string>
+    <string name="name_fire">热量:</string>
+    <string name="menu_settings">Settings</string>
+	<string name="name_frequency">步数:</string>
+	<string name="name_calorie">卡路里:</string>
+	<string name="name_option">设置</string>
+	<string name="name_note">日记</string>
+	<string name="name_plan">瘦身计划</string>
+	<string name="name_weight">体重</string>
+	<string name="name_distance">步幅</string>
+	<string name="name_age">年龄:</string>
+	<string name="name_sui">岁</string>
+	<string name="name_shengao">身高:</string>
+	<string name="name_cm">cm</string>
+	<string name="name_tizhong">体重:</string>
+	<string name="name_calculate">进行计算</string>
+	<string name="name_kg">kg</string>
+	<string name="name_widget_update">桌面组件刷新时间</string>
+	<string name="option_bootstart">开机启动</string>
+	<string name="option_bootstart_text">开机启动记录卡路里消耗的服务，如果关闭这个选项将无法实时记录卡路里消耗量。</string>
+	<string name="option_userage">用户年龄</string>
+	<string name="option_userage_text">程序根据用户年龄计算您消耗的卡路里，正确输入可以尽量缩小卡路里消耗的误差值。</string>
+	<string name="option_userweight">用户体重</string>
+	<string name="option_userweight_text">用户实际体重（公斤），正确输入可以尽量缩小卡路里消耗的误差值。</string>
+	<string name="option_userdistance">用户步幅</string>
+	<string name="option_userdistance_text">正常步行一步的跨度（厘米），正确输入可以尽量缩小卡路里消耗的误差值。</string>
+	<string name="name_next_picture">下一幅图</string>
+	<string name="imagelistmain_explain">减肥图片法是为想减肥而又嘴馋的用户设计的，主要是通过观看图片来抵制用户的食欲。用户可以根据自己的需求点击下面说明观看相应图片来达到忌口的效果。</string>
+	<string name="imagelistmain_explain1">图片对比法主要是通过图片让用户了解肥胖对自己体形、健康方面的影响;让我们可以直观的了解到胖与瘦之间的差别，从而达到适量饮食的效果。（点击观看）</string>
+	<string name="imagelistmain_explain2">图片刺激法主要是通过用户观看图片之后对当前实物产生反胃、恶心等生理反映来达到禁食的效果。此方法比较特别，图片均属于重口味图片，如无非要禁食的意愿，尽量不建议观看。如有心脏病高血压等症状的用户禁止观看。（点击观看）</string>
+	<string name="aboutwidget_explain1">目前桌面小组件有两种规格，一种1*1格式大小的，上面记录行走的步数和消耗的卡路里；一种是2*1格式大小的，除了记录行走步数和消耗的卡路里之外，还有一个开关按钮来启动或者关闭后台记录卡路里的服务。</string>
+	<string name="aboutwidget_explain2">（注意）请您将本软件安装到手机内存中才能在小部件中找到我们的小部件，这是android系统规定的，安装在SD卡的任何桌面小部件都无法显示。</string>
+	<string name="aboutwidget_caption">桌面小部件说明</string>
+	
+	<string name="foodmain_caption">实物查询</string>
+	
+	<string name="toolmain_caption">瘦身工具</string>
+	<string name="tool_bmi">体重指数(BMI)</string>
+	<string name="tool_bmi_resault">您的体重指数(BMI)为:</string>
+	<string name="tool_bmi_explain">BMI身体质量指数：BMI[Body Mass Index]即BMI指数，也叫身体质量指数，是衡量是否肥胖和标准体重的重要指标。 计算适用范围：18岁至65岁的人士。儿童、发育中的青少年、孕妇、乳母、老人及身型健硕的运动员除外。世界卫生组织认为BMI指数保持在22左右是比较理想的。附：{BMI小于18.5(轻体重)}{BMI值18.5至24(健康体重)}{BMI值24至28(超重)}{BMI大于28(肥胖)}</string>
+	<string name="tool_xinlv">有氧运动心率</string>
+	<string name="tool_xinlv_resault1">您的中低强度运动心率是:</string>
+	<string name="tool_xinlv_resault2">次/分钟到</string>
+	<string name="tool_xinlv_resault3">次/分钟</string>
+	<string name="tool_xinlv_explain">有氧运动减肥心率\n有氧运动就是燃烧脂肪的减肥运动，需要满足下面三个必要条件：\n1、该运动要达到中低强度的运动心率；2、这种中低轻度运动心率的运动要持续20分钟以上；3、这种运动必须是大肌肉群的运动，如慢跑、游泳、健身操等。\n使用上面的计算器，马上得到适合您的中低强度运动心率，低于这个范围或者高于这个范围，都不是以燃烧脂肪供能为主，减脂效果略差。</string>
+	
+	<string name="option_caption">瘦身设置</string>
+	
+	<string name="about_caption">关于</string>
+	
+	<string name="note">我的日志</string>
+	<string name="look">减肥图片</string>
+	<string name="food">食品查询</string>
+	<string name="widget">窗口部件说明</string>
+	
+	<string name="flash_tag">懒人瘦身</string>
+</resources>

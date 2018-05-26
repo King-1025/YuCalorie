@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:gravity="center_horizontal"
+			android:layout_marginBottom="20dp">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="注册"
+				android:textSize="25sp"
+				android:textColor="#FFFFFF"/>
+
+		</LinearLayout>
+
+		<View
+			android:background="?android:attr/dividerVertical"
+			android:layout_height="1dp"
+			android:layout_width="match_parent"
+			android:layout_marginBottom="10dp"/>
+
+		<RelativeLayout
+			android:layout_height="35dp"
+			android:layout_width="wrap_content"
+			android:gravity="center_vertical"
+			android:layout_marginBottom="15dp">
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="50dp"
+				android:text="昵称:"
+				android:id="@+id/activityloginTextView1"
+				android:gravity="center"
+				android:textColor="#FFFFFF"
+				android:textSize="15sp"
+				android:background="#834934"/>
+
+			<EditText
+				android:layout_height="match_parent"
+				android:inputType="textPersonName"
+				android:layout_width="250dp"
+				android:ems="10"
+				android:layout_toRightOf="@id/activityloginTextView1"
+				android:singleLine="true"
+				android:gravity="center_vertical"
+				android:hint="不能包含特殊字符"
+				android:textSize="15sp"
+				android:id="@+id/registerEditTextNick"
+				android:background="#FFFFFF"
+				android:paddingLeft="2dp"
+				android:textColor="#91531E"
+				android:textCursorDrawable="@drawable/edit_text_cursor_shape"/>
+
+		</RelativeLayout>
+
+		<RelativeLayout
+			android:layout_height="35dp"
+			android:layout_width="wrap_content"
+			android:gravity="center_vertical"
+			android:layout_marginBottom="15dp">
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="50dp"
+				android:text="密码:"
+				android:id="@+id/activityloginTextView2"
+				android:gravity="center"
+				android:textColor="#FFFFFF"
+				android:textSize="15sp"
+				android:background="#834934"/>
+
+			<EditText
+				android:layout_height="match_parent"
+				android:inputType="textWebPassword"
+				android:ems="10"
+				android:layout_toRightOf="@id/activityloginTextView2"
+				android:singleLine="true"
+				android:hint="8~20个字符"
+				android:gravity="center_vertical"
+				android:textSize="15sp"
+				android:layout_width="250dp"
+				android:id="@+id/registerEditTextPasswd0"
+				android:background="#FFFFFF"
+				android:paddingLeft="2dp"
+				android:textColor="#91531E"
+				android:textCursorDrawable="@drawable/edit_text_cursor_shape"/>
+
+		</RelativeLayout>
+
+		<RelativeLayout
+			android:layout_height="35dp"
+			android:layout_width="wrap_content"
+			android:gravity="center_vertical"
+			android:layout_marginBottom="15dp">
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="80dp"
+				android:text="重复密码:"
+				android:id="@+id/activityloginTextView2"
+				android:gravity="center"
+				android:textColor="#FFFFFF"
+				android:textSize="15sp"
+				android:background="#834934"/>
+
+			<EditText
+				android:layout_height="match_parent"
+				android:inputType="textWebPassword"
+				android:ems="10"
+				android:layout_toRightOf="@id/activityloginTextView2"
+				android:singleLine="true"
+				android:gravity="center_vertical"
+				android:textSize="15sp"
+				android:layout_width="220dp"
+				android:id="@+id/registerEditTextPasswd1"
+				android:background="#FFFFFF"
+				android:paddingLeft="2dp"
+				android:textColor="#91531E"
+				android:textCursorDrawable="@drawable/edit_text_cursor_shape"/>
+
+		</RelativeLayout>
+
+		<RelativeLayout
+			android:layout_height="35dp"
+			android:layout_width="wrap_content"
+			android:gravity="center_vertical"
+			android:layout_marginBottom="15dp">
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="50dp"
+				android:text="QQ:"
+				android:id="@+id/activityloginTextView2"
+				android:gravity="center"
+				android:textColor="#FFFFFF"
+				android:textSize="15sp"
+				android:background="#834934"/>
+
+			<EditText
+				android:layout_height="match_parent"
+				android:inputType="number"
+				android:ems="10"
+				android:layout_toRightOf="@id/activityloginTextView2"
+				android:singleLine="true"
+				android:gravity="center_vertical"
+				android:textSize="15sp"
+				android:layout_width="250dp"
+				android:id="@+id/registerEditTextQQ"
+				android:background="#FFFFFF"
+				android:paddingLeft="2dp"
+				android:textColor="#91531E"
+				android:textCursorDrawable="@drawable/edit_text_cursor_shape"/>
+
+		</RelativeLayout>
+
+		<RelativeLayout
+			android:layout_height="35dp"
+			android:layout_width="wrap_content"
+			android:gravity="center_vertical"
+			android:layout_marginBottom="1dp">
+
+			<TextView
+				android:layout_height="match_parent"
+				android:layout_width="50dp"
+				android:text="邮箱:"
+				android:id="@+id/activityloginTextView2"
+				android:gravity="center"
+				android:textColor="#FFFFFF"
+				android:textSize="15sp"
+				android:background="#834934"/>
+
+			<EditText
+				android:layout_height="match_parent"
+				android:inputType="textWebEmailAddress"
+				android:ems="10"
+				android:layout_toRightOf="@id/activityloginTextView2"
+				android:singleLine="true"
+				android:hint="xxx@qq.com"
+				android:gravity="center_vertical"
+				android:textSize="15sp"
+				android:layout_width="250dp"
+				android:id="@+id/registerEditTextEmail"
+				android:background="#FFFFFF"
+				android:paddingLeft="2dp"
+				android:textColor="#91531E"
+				android:textCursorDrawable="@drawable/edit_text_cursor_shape"/>
+
+		</RelativeLayout>
+
+		<RelativeLayout
+			android:layout_height="25dp"
+			android:layout_width="match_parent">
+
+		</RelativeLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:gravity="center_horizontal">
+
+			<Button
+				android:layout_height="40dp"
+				android:layout_width="90dp"
+				android:text="重置"
+				android:background="@drawable/back_wood1_2"
+				android:textColor="#FFFFFF"
+				android:id="@+id/registerButtonReset"/>
+
+			<View
+				android:layout_height="match_parent"
+				android:layout_width="50dp"/>
+
+			<Button
+				android:layout_height="40dp"
+				android:layout_width="90dp"
+				android:text="确定"
+				android:background="@drawable/back_wood1_2"
+				android:textColor="#FFFFFF"
+				android:id="@+id/registerButtonOK"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
+

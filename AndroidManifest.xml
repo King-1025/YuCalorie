@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yucalorie"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="4"
+        android:targetSdkVersion="4" />
+
+    <application
+		android:name="com.example.yucalorie.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.yucalorie.FlashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity android:name="com.example.yucalorie.LoginActivity"/>
+		<activity android:name="com.example.yucalorie.MainActivity"/>
+        <activity android:name="com.example.yucalorie.AboutActivity" />
+        <activity android:name="com.example.yucalorie.tool.ToolXinLv" />
+        <activity android:name="com.example.yucalorie.tool.ToolBMI" />
+        <activity android:name="com.example.yucalorie.tool.ToolMainListActivity" />
+        <activity android:name="com.example.yucalorie.food.FootDataActivity" />
+        <activity android:name="com.example.yucalorie.food.FootTypeListActivity" />
+        <activity android:name="com.example.yucalorie.AboutWidgetActivity" />
+        <activity android:name="com.example.yucalorie.picturelist.PictureListMainActivity"></activity>
+        <activity android:name="com.example.yucalorie.picturelist.PictureListActivity" />
+        <activity android:name="com.example.yucalorie.note.NoteListActivity"></activity>
+        <activity android:name="com.example.yucalorie.option.OptionActivity"
+            android:theme="@android:style/Theme.Black" ></activity>
+		<!-- 卡路里计数服务 -->
+        <service android:name="com.example.yucalorie.core.CalorieManager"></service>
+        <!-- 1*1桌面插件 -->
+        <receiver android:name="com.example.yucalorie.desktop.desktop1_1" >
+		    <meta-data android:name="android.appwidget.provider"
+		       android:resource="@xml/widget_desktop1_1" />
+		    <intent-filter>
+		       <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+		       <category android:name="android.intent.category.DEFAULT" />
+		    </intent-filter>
+		</receiver>
+        <!-- 1*2桌面插件 -->
+        <receiver android:name="com.example.yucalorie.desktop.desktop1_2" >
+		    <meta-data android:name="android.appwidget.provider"
+		       android:resource="@xml/widget_desktop1_2" />
+		    <intent-filter>
+		       <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+		       <category android:name="android.intent.category.DEFAULT" />
+		    </intent-filter>
+		</receiver>
+		<!-- 开机启动类 -->
+        <receiver android:name="com.example.yucalorie.core.CalorieSystemBoot">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"></action>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
